@@ -7,12 +7,12 @@ describe("stretch.js", function () {
     expect(JSC).to.not.equal(undefined);
   });
 
-  it("has a cool DSL", function () {
+  it("has a cool DSL"); //, function () {
     // claim("descriptor", predicateFn).passes(specifiers, [classifierFn])
     // claim("descriptor", predicateFn).fails(specifiers, [classifierFn])
-  });
+  // });
 
-  it("exposes simplified specifiers", function () {
+  it("exposes simplified specifiers"); //, function () {
     // stretch.prime() => JSC.integer()
     // stretch(n) => JSC.integer(n)
     //
@@ -38,5 +38,5 @@ describe("stretch.js", function () {
     // JSC.sequence(array) => 
     // JSC.string(value) => stretch.string(value)
     // JSC.string(JSC.integer(1000, 9999)) => 
-  });
+  // });
 });
